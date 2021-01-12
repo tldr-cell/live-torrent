@@ -1,0 +1,16 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - concurrently > lodash:
+        patched: '2021-01-12T19:36:01.381Z'
+    - request-promise-core > lodash:
+        patched: '2021-01-12T19:36:01.381Z'
+    - live-torrent-backend > tailwindcss > lodash:
+        patched: '2021-01-12T19:36:01.381Z'
+    - live-torrent-backend > torrent-search-api > lodash:
+        patched: '2021-01-12T19:36:01.381Z'
+    - live-torrent-backend > torrent-search-api > cloudscraper > request-promise > request-promise-core > lodash:
+        patched: '2021-01-12T19:36:01.381Z'
